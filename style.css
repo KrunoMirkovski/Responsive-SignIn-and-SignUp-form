@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.heroSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#6eabff, #9affff);
+}
+.container{
+    width: 800px;
+    height: 500px;
+    background: whitesmoke;
+    position: relative;
+    border-radius: 26px;
+    box-shadow: 0 0 50px #04040733;
+}
+.formbox{
+    width: 50%;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    position: absolute;
+    right: 0;
+    background: darkblue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: azure;
+}
+form{
+    width: 100%;
+}
+.container h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.inputbox{
+    position: relative;
+    margin: 20px 0;
+}
+.inputbox input{
+    width: 80%;
+    padding: 10px 50px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #eeeeee;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+.inputbox input::placeholder{
+    font-weight: 400;
+    color: #888;
+}
+.inputbox i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #888;
+}
+.forgotbox{
+    margin: 15px 0 15px;
+}
+.forgotbox a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #7b7b7b;
+}
+.btn {
+    width: 80%;
+    height: 50px;
+    background: lightskyblue;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #04040733;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.container p{
+    font-size: 14px;
+    margin: 20px 0;
+    color: #7b7b7b;
+}
+.social_icons a{
+    display: inline-flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 26px;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 8px;
+}
