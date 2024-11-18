@@ -17,7 +17,7 @@
     position: relative;
     border-radius: 26px;
     box-shadow: 0 0 50px #04040733;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .formbox{
     width: 50%;
@@ -118,7 +118,7 @@ position:relative;
     left: -250%;
     background:lightskyblue;
     z-index: 20;
-    border-radius: 200px;
+    border-radius: 500px;
 }
 .toggle_panel{
     width: 50%;
@@ -145,4 +145,7 @@ position:relative;
     font-weight: 600;
     color: #eeeeee;
     cursor: pointer;
+}
+.toggle_panel.right{
+    right: -50%;
 }
