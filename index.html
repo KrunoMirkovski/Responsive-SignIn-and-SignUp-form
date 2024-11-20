@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Sign In and Sign Up form using HTML, CSS and Javascript</title>
+      <!-- Boxicons CSS for icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="heroSection">
         <div class="container">
-            <div class="formbox signin">
+            <div class="formbox signin"> <!-- Log In Form -->
                 <form action="">
                     <h1>Log In</h1>
                     <div class="inputbox">
@@ -33,7 +34,7 @@
                     </div>
                 </form>
             </div>
-
+            <!-- Sign Up Form -->
             <div class="formbox register">
                 <form action="">
                     <h1>Sign Up</h1>
@@ -58,21 +59,24 @@
                     </div>
                 </form>
             </div>
+            <!-- Toggle Panels -->
             <div class="togglebox">
+                 <!-- Left Panel for Registration -->
                 <div class="toggle_panel left">
                     <h1>Welcome!</h1>
                     <p>Don't have an account?</p>
-                    <button class="btn register_btn">Register</button>
+                    <button class="btn register_btn">Register</button> <!-- Toggle to Sign Up -->
                 </div>
+                <!-- Right Panel for Login -->
                 <div class="toggle_panel right">
                     <h1>Welcome Back!</h1>
                     <p>Log In to Your Account</p>
-                    <button class="btn login_btn">Log In</button>
+                    <button class="btn login_btn">Log In</button> <!-- Toggle to Log In -->
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- JavaScript Link -->
     <script src="script.js"></script>
 </body>
 </html>
